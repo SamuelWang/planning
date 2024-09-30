@@ -1,6 +1,7 @@
 // @ts-expect-error
 import Lara from '@/presets/tailwindcss-primevue-lara';
 import { createPinia } from 'pinia';
+import 'primeicons/primeicons.css';
 import PrimeVue from 'primevue/config';
 import { createApp } from 'vue';
 import './assets/main.css';
